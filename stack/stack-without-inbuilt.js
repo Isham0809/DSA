@@ -14,7 +14,7 @@ class Stack {
             console.log("Stack is underflow")
             return undefined
         }
-        let popedItem = this.item[this.top] // top poped
+        let popedItem = this.item[this.top] 
         this.top--
         this.item.length-- 
         return popedItem

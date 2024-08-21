@@ -11,7 +11,7 @@ class Stack {
   }
 
   push(element) {
-    let newNode = new Node(element); // instance of class Node
+    let newNode = new Node(element);
     if (this.top) {
       newNode.next = this.top;
     }
